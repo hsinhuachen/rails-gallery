@@ -1,0 +1,12 @@
+<article id="project" class="page">
+	<h2><%= @post.title %></h2>
+	<%= image_tag @post.thumb.url if @post.thumb.url.present? %>
+
+	<ul>
+	<% for photo in @post.photos %>
+		<li><%= photo.name %></li>
+	<% end %>
+	</ul>
+
+	<p><%= link_to 'back', projects_path %></p>
+</article>

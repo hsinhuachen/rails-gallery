@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyText
+  desc: MyText
+  thumb: MyText
+  feature: false
+  published: false
+  sorting: 1
+
+two:
+  title: MyText
+  desc: MyText
+  thumb: MyText
+  feature: false
+  published: false
+  sorting: 1
