@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'hirb'
 
 gem 'trestle'
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem 'mini_magick', ">= 4.9.4"
 
 # Reduces boot times through caching; required in config/boot.rb
